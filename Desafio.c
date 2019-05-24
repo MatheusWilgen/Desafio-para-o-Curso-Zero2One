@@ -25,8 +25,8 @@ int main(void){
       }
   }
   
-  //ordenacao(vet, alfabeto, 37);
-  //printf("%s\n",alfabeto);
+  ordenacao(vet, alfabeto, 37);
+  printf("%s\n",alfabeto);
   for(int i=0; i<38; i++){
     printf("\n%c = %d",alfabeto[i],vet[i]);
   }
